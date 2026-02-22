@@ -1,0 +1,18 @@
+LangGraph is an open sourced extension of LangChain that’s useful for creating stateful AI agents by modeling workflows as nodes and edges in a graph. You can think of your agent’s logic as a flowchart where:
+
+Nodes are the actions (for example “ask the LLM” or “run this tool”)
+
+Edges are the arrows (what happens next)
+
+State is the information passed around
+
+LangGraph is especially good at providing the following benefits:
+
+Flow control: You define exactly what happens when.
+
+Stateful: The framework preserves conversation history for you.
+
+Easy to use: Just adding a decorator to an existing Python function makes it a tool.
+
+Production-ready: It has built-in error handling and retries.
+
